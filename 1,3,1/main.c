@@ -60,7 +60,7 @@ int main (int argc, char* args[]){
                 run = 0;  
             }
         }
-        SDL_Delay(10);
+        SDL_Delay(100);
     }
     /* FINALIZACAO */
     SDL_DestroyRenderer(ren);
