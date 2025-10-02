@@ -20,17 +20,17 @@ int main (int argc, char* args[])
     SDL_Rect r1 = { 2*50,4*50, 4*50, 4*50 };
     SDL_RenderFillRect(ren, &r1);
 
-    SDL_Rect r2 = { 10*50,4*50,4*50,4*50};
-    SDL_RenderFillRect(ren,&r2);
+     r1 = (SDL_Rect) { 10*50,4*50,4*50,4*50};
+    SDL_RenderFillRect(ren,&r1);
 
-    SDL_Rect r3 = { 6*50,8*50, 4*50, 6*50};
-    SDL_RenderFillRect(ren, &r3);
+     r1 = (SDL_Rect) { 6*50,8*50, 4*50, 6*50};
+    SDL_RenderFillRect(ren, &r1);
 
-    SDL_Rect r4 = { 4*50,10*50, 2*50, 6*50 };
-    SDL_RenderFillRect(ren, &r4);
+     r1 = (SDL_Rect) { 4*50,10*50, 2*50, 6*50 };
+    SDL_RenderFillRect(ren, &r1);
 
-    SDL_Rect r5 = {  10*50,10*50, 2*50, 6*50 };
-    SDL_RenderFillRect(ren, &r5);
+     r1 = (SDL_Rect) {  10*50,10*50, 2*50, 6*50 };
+    SDL_RenderFillRect(ren, &r1);
 
 
     SDL_RenderPresent(ren);
